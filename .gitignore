@@ -1,4 +1,39 @@
-﻿node_modules/
+﻿# Dependencias
+node_modules/
+
+# Base de datos local
+kanban.db
 kanban.db-shm
 kanban.db-wal
+*.db
+*.db-shm
+*.db-wal
+db/data.json
+
+# Variables de entorno
 .env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.idea/
+*.swp
+*.swo
+
+# Build / cobertura
+dist/
+build/
+coverage/
+
+data.json
+.vscode/
